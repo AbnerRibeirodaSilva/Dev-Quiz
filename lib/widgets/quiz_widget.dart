@@ -1,9 +1,8 @@
+import 'package:devquiz/models/awnsers_model.dart';
+import 'package:devquiz/models/question_model.dart';
 import 'package:flutter/material.dart';
-
 import 'package:devquiz/core/app_text_styles.dart';
-import 'package:devquiz/pages/challenge/widgets/awnser/awnser_widget.dart';
-import 'package:devquiz/shared/models/awnsers_model.dart';
-import 'package:devquiz/shared/models/question_model.dart';
+import 'awnser_widget.dart';
 
 class QuizWidget extends StatefulWidget {
   final QuestionModel question;

@@ -1,6 +1,5 @@
 import 'dart:convert';
-
-import 'package:devquiz/shared/models/awnsers_model.dart';
+import 'awnsers_model.dart';
 
 class QuestionModel {
   final String title;
@@ -10,7 +9,7 @@ class QuestionModel {
     required this.title,
     required this.awnsers,
   }) : assert(
-          awnsers.length == 5,
+          awnsers.length == 4,
         );
 
   Map<String, dynamic> toMap() {

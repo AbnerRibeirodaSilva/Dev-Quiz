@@ -1,7 +1,8 @@
-import 'package:devquiz/home/home_repository.dart';
-import 'package:devquiz/home/home_state.dart';
-import 'package:devquiz/shared/models/quiz_model.dart';
-import 'package:devquiz/shared/models/user_model.dart';
+import 'package:devquiz/models/quiz_model.dart';
+import 'package:devquiz/models/user_model.dart';
+import 'package:devquiz/pages/home_state.dart';
+import 'package:devquiz/repository/home_repository.dart';
+
 import 'package:flutter/cupertino.dart';
 
 class HomeController {

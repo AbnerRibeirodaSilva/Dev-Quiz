@@ -1,8 +1,7 @@
+import 'package:devquiz/models/awnsers_model.dart';
 import 'package:flutter/material.dart';
-
 import 'package:devquiz/core/app_colors.dart';
 import 'package:devquiz/core/app_text_styles.dart';
-import 'package:devquiz/shared/models/awnsers_model.dart';
 
 class AwnserWidget extends StatelessWidget {
   final AwnserModel awnser;

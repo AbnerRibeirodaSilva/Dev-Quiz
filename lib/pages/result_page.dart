@@ -1,8 +1,7 @@
+import 'package:devquiz/widgets/next_button_widget.dart';
 import 'package:flutter/material.dart';
-
 import 'package:devquiz/core/app_images.dart';
 import 'package:devquiz/core/app_text_styles.dart';
-import 'package:devquiz/pages/challenge/widgets/next_button.dart/next_button_widget.dart';
 import 'package:share_plus/share_plus.dart';
 
 class ResultPage extends StatelessWidget {

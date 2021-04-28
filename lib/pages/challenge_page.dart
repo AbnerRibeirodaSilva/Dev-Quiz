@@ -1,11 +1,10 @@
+import 'package:devquiz/models/question_model.dart';
+import 'package:devquiz/pages/result_page.dart';
+import 'package:devquiz/widgets/next_button_widget.dart';
+import 'package:devquiz/widgets/question_indicator_widget.dart';
+import 'package:devquiz/widgets/quiz_widget.dart';
 import 'package:flutter/material.dart';
-
 import 'package:devquiz/controllers/challenge_controller.dart';
-import 'package:devquiz/pages/challenge/widgets/next_button.dart/next_button_widget.dart';
-import 'package:devquiz/pages/challenge/widgets/question_indicator/question_indicator_widget.dart';
-import 'package:devquiz/pages/challenge/widgets/quiz/quiz_widget.dart';
-import 'package:devquiz/result_page/result_page.dart';
-import 'package:devquiz/shared/models/question_model.dart';
 
 class ChallengePage extends StatefulWidget {
   final List<QuestionModel> questions;

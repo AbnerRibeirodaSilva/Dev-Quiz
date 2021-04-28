@@ -1,29 +1,107 @@
 [{
-    "title": "Nlw5 Flutter",
+    "title": "Basico sobre Flutter",
     "image": "blocks",
-    "questionsAwnsered": 1,
+    "questionsAwnsered": 0,
     
     "level": "facil",
     "questions": [
       { 
-        "title": "Esta curtindo flutter?",
-        "awnsers":[ {"title": "curtindo"},
-            {"title": "gostando"},
-            {"title": "amando"},
-            {"title": "apaixonado"},
-            {"title": "nao gostei","isRight": true}
+        "title": "Que empresa desenvolveu o flutter?",
+        "awnsers":[
+            {"title": "Amazon"},
+            {"title": "IBM"},
+            {"title": "Google","isRight": true},
+            {"title": "Facebook"}
+            
+            
         ]
       },
       { 
-        "title": "Abner e um lindao?",
-        "awnsers":[ {"title": "Sim"},
-            {"title": "sem duvidas alguma"},
-            {"title": "mas e claro"},
-            {"title": "isso e obvio"},
-            {"title": "logico que sim","isRight": true}
+        "title": "Para quais plataformas o flutter compila",
+        "awnsers":[
+          {"title": "Mac, IOS, Linux, Windows e Android"},
+            {"title": "Android e IOS"},
+            
+            {"title": "IOS, Mac, Android e Linux"},
+            {"title": "Android, iOS, Windows, Mac, Linux, Google Fuchsia e Web","isRight": true}
+            
+        ]
+      },
+      { 
+        "title": "A partir de que versão o flutter implementou a funcionalidade Null Safety",
+        "awnsers":[
+          {"title": "1.8.0"},
+            {"title": "2.1.0"},
+            {"title": "2.0.0","isRight": true},
+            {"title": "1.5.1"}
+            
+            
+        ]
+      },
+      { 
+        "title": "Que linguagem de programação e utilizada pelo flutter",
+        "awnsers":[
+          {"title": "Java"},
+            {"title": "Python"},
+            {"title": "JavaScript"},
+            {"title": "Dart","isRight": true}
+            
+            
         ]
       }
     ]
- }
+ },{
+  "title": "nao sei",
+  "image": "laptop",
+  "questionsAwnsered": 0,
+  
+  "level": "facil",
+  "questions": [
+    { 
+      "title": "Que empresa desenvolveu o flutter?",
+      "awnsers":[
+          {"title": "Amazon"},
+          {"title": "IBM"},
+          {"title": "Google","isRight": true},
+          {"title": "Facebook"}
+          
+          
+      ]
+    },
+    { 
+      "title": "Para quais plataformas o flutter compila",
+      "awnsers":[
+        {"title": "Mac, IOS, Linux, Windows e Android"},
+          {"title": "Android e IOS"},
+          
+          {"title": "IOS, Mac, Android e Linux"},
+          {"title": "Android, iOS, Windows, Mac, Linux, Google Fuchsia e Web","isRight": true}
+          
+      ]
+    },
+    { 
+      "title": "A partir de que versão o flutter implementou a funcionalidade Null Safety",
+      "awnsers":[
+       
+          {"title": "2.1.0"},
+          {"title": "2.0.0","isRight": true},
+          {"title": "1.5.1"},
+          {"title": "3.0.0"}
+          
+      ]
+    },
+    { 
+      "title": "Que linguagem de programação e utilizada pelo flutter",
+      "awnsers":[
+        {"title": "Java"},
+         
+          {"title": "JavaScript"},
+          {"title": "Dart","isRight": true},
+          {"title": "Ruby"}
+          
+      ]
+    }
+  ]
+}
 ]
        
